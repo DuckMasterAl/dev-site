@@ -90,6 +90,13 @@ body {
   display: none;
 }
 
+.emoji {
+  display: inline;
+  width: 25px;
+  height: 25px;
+  vertical-align: -5px;
+}
+
 .cemoji {
   display: inline;
   width: 10px;
@@ -192,5 +199,10 @@ body {
   }
   .bottom2 {
     display: block;
+  }
+  #text-div-404 {
+    position: relative;
+    left: 5%;
+    font-size: 70%;
   }
 }
