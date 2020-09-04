@@ -160,6 +160,7 @@ body {
 }
 
 .support404 {
+  display: block;
   max-width: 200px;
   max-height: 200px;
   width: 100%;
@@ -175,14 +176,18 @@ body {
   cursor: default;
 }
 
-#support1, #support2 {
+#support1 {
+  display: block;
+}
+
+#support2 {
   display: none;
 }
 
 /* Media Tags */
 
 @media (max-width: 599px) {
-  .bottom {
+  .bottom, .support404 {
     display: none;
   }
   .bottom2 {
